@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <title>HTML Academy: Sedona</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
   <body>
     <header class="page-header">
@@ -24,17 +25,17 @@
         <ul class="navigation-user-list">
           <li class="navigation-user-item">
             <a href="#" class="navigation-link">
-              <span class="visually-hidden">Поиск</span>
+              <span class="visually-hidden search">Поиск</span>
             </a>
           </li>
           <li class="navigation-user-item">
             <a href="#" class="navigation-link">
-              <span class="visually-hidden">Отелей в избранном</span>
+              <span class="visually-hidden count-hotels">Отелей в избранном</span>
               <span class="count">12</span>
             </a>
           </li>
           <li class="navigation-user-item">
-            <a href="#" class="navigation-link">Хочу сюда!</a>
+            <a href="#" class="navigation-link wishes">Хочу сюда!</a>
           </li>
         </ul>
       </nav>
@@ -57,7 +58,7 @@
             <p class="advantages-item-description">
               Седона — не аттракцион для туристов, там течёт своя жизнь
             </p>
-            <img src="images/advantages - city.jpg" alt="улица Седоны" width="800" height="385"/>
+            <img src="images/advantages-city.jpg" alt="улица Седоны" width="800" height="385"/>
           </li>
           <li class="advantages-item">
             <h3 class="advantages-item-title">Небольшая площадь</h3>
@@ -78,14 +79,11 @@
             </p>
           </li>
           <li class="advantages-item">
-            <img src="#" alt="devil's bridge" />
-          </li>
-          <li class="advantages-item">
             <h3 class="advantages-item-title">Там есть мост дьявола</h3>
             <p class="advantages-item-description">
               Да, по нему можно пройти! Если вы осмелитесь, разумеется
             </p>
-            <img src="#" alt="Фотография моста дьявола" />
+            <img src="images/advantages-bridge.jpg" alt="Фотография моста дьявола" width="800" height="385"/>
           </li>
         </ul>
       </section>
@@ -138,21 +136,27 @@
     <footer class="page-footer">
       <ul class="social-list">
         <li class="social-list-item">
-          <a href="https://vk.com/">Вконтакте</a>
+          <a href="https://vk.com/">
+            <span class="visually-hidden">Вконтакте</span>
+          </a>
         </li>
         <li class="social-list-item">
-          <a href="https://web.telegram.org/">Telegram</a>
+          <a href="https://web.telegram.org/">
+            <span class="visually-hidden">Telegram</span>
+          </a>
         </li>
         <li class="social-list-item">
-          <a href="https://www.youtube.com/">Youtube</a>
+          <a href="https://www.youtube.com/">
+            <span class="visually-hidden">Youtube</span>
+          </a>
         </li>
       </ul>
       <p class="phone-number">
         <a href="#" tel="+78128121212">+7(812)812-12-12</a>
       </p>
       <p class="logo-academy">
-        <a href="https://htmlacademy.ru/intensive/htmlcss">
-          <img src="#" alt="логотип академии" />
+        <a href="https://htmlacademy.ru/intensive/htmlcss" class="html-academy-link">
+          <span class="visually-hidden">Логотип Академии</span>
         </a>
       </p>
     </footer>
