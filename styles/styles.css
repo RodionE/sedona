@@ -10,10 +10,13 @@
   font-family: "Pt Sans";
   src: url(../fonts/ptsans-700.woff2) format("woff2"),
        url(../fonts/PTSans-Bold.woff) format("woff");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
 }
 
 body {
-  font-family: "Pt Sans";
+  font-family: "Pt Sans", "Arial", sans-serif;
   font-size: 18px;
   color: #000000;
   line-height: 18px;
@@ -21,16 +24,36 @@ body {
 }
 
 .navigation-link {
-  font-family: "Pt Sans";
   font-weight: 700;
   font-size: 20px;
   line-height: 24px;
   text-decoration: none;
 }
-.search {
-  background: url(../images/search.svg) 20px 20px no-repeat;
-}
 
-.count-hotels {
-  background: url("../images/favorite.svg") 20px 20px no-repeat;
+.advantages-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.advantages-description {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+}
+.advantages-item-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFF;
+}
+.advantages-item-description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFF;
+}
+.advantages-item:first-child {
+  background-color: #82b3d3;
 }
