@@ -2,7 +2,7 @@
 
 * Студент: [Родион Егоров](https://up.htmlacademy.ru/htmlcss-individual/2/user/796081).
 * Наставник: `Без него`.
-* Сайт: [Мой проект Седона](https://rodione.github.io/Sedona/)
+* Сайт: [Мой проект Седона](https://rodione.github.io/sedona/)
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
