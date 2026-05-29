@@ -7,8 +7,69 @@
   <title>Страница каталога</title>
 </head>
 
-<body>
+<body class="page__body">
+  <header class="page__header">
+    <nav class="navigation">
+      <a class="logo-image" href="index.html">
+        <img class="logo" src="" alt="логотип Седона">
+      </a>
+      <ul class="navigation__list">
+        <li class="navigation__item">
+          <a class="navigation__link navigation__link--current" href="#">Главная</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="about.html">О Седоне</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="catalog.html">Гостиницы</a>
+        </li>
+      </ul>
+      <ul class="navigation__list-user">
+        <li class="navigation__item-user">
+          <a class="navigation__link-user" href="search.html">
+            <span class="visually-hidden">Поиск</span>
+          </a>
+        </li>
+        <li class="navigation__item-user">
+          <a class="navigation__link-user" href="favorite.html">
+            <span class="visually-hidden">Избранное</span>
+            <span class="count">12</span>
+          </a>
+        </li>
+        <li class="navigation__item-user">
+          <a class="button" href="#">Хочу сюда!</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
 
+  <main class="main__inner" data-test="main"></main>
+
+  <footer class="page__footer" data-test="footer">
+    <ul class="page__footer-social_list">
+      <li class="social__item">
+        <a class="social__link social__link--vk" href="https://vk.com/htmlacademy">
+          <span class="visually-hidden">Вконтакте</span>
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link social__link--tg" href="https://t.me/htmlacademy">
+          <span class="visually-hidden">Телеграм</span>
+        </a>
+      </li>
+      <li class="social__item">
+        <a class="social__link social__link--youtube" href="https://www.youtube.com/user/htmlacademyru">
+          <span class="visually-hidden">Ютуб</span>
+        </a>
+      </li>
+    </ul>
+
+    <a class="page__footer-social_phone href=" tel:+78128121212">+7 (812) 812-12-12</a>
+
+    <a class="page__footer-academy" href="https://htmlacademy.ru/intensive/htmlcss">
+      <span class="visually-hidden">Логотип Html Academy</span>
+    </a>
+  </footer>
 </body>
 
 </html>
