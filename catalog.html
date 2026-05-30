@@ -7,68 +7,120 @@
   <title>Страница каталога</title>
 </head>
 
-<body class="page__body">
-  <header class="page__header">
-    <nav class="navigation">
-      <a class="logo-image" href="index.html">
+<body class="body">
+  <header class="header" data-test="header">
+    <nav class="header__nav">
+      <a class="header__nav-logo" href="index.html">
         <img class="logo" src="" alt="логотип Седона">
       </a>
-      <ul class="navigation__list">
-        <li class="navigation__item">
-          <a class="navigation__link navigation__link--current" href="#">Главная</a>
+      <ul class="header__nav-list">
+        <li class="header__nav-item">
+          <a class="header__nav-link header__nav-link--current" href="#">Главная</a>
         </li>
-        <li class="navigation__item">
-          <a class="navigation__link" href="about.html">О Седоне</a>
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="about.html">О Седоне</a>
         </li>
-        <li class="navigation__item">
-          <a class="navigation__link" href="catalog.html">Гостиницы</a>
+        <li class="header__nav-item">
+          <a class="header__nav-link" href="catalog.html">Гостиницы</a>
         </li>
       </ul>
-      <ul class="navigation__list-user">
-        <li class="navigation__item-user">
-          <a class="navigation__link-user" href="search.html">
+      <ul class="header__nav-list-user">
+        <li class="header__nav-item-user">
+          <a class="header__nav-link-user" href="search.html">
             <span class="visually-hidden">Поиск</span>
           </a>
         </li>
-        <li class="navigation__item-user">
-          <a class="navigation__link-user" href="favorite.html">
+        <li class="header__nav-item-user">
+          <a class="header__nav-link-user" href="favorite.html">
             <span class="visually-hidden">Избранное</span>
             <span class="count">12</span>
           </a>
         </li>
-        <li class="navigation__item-user">
-          <a class="button" href="#">Хочу сюда!</a>
+        <li class="header__nav-item-user">
+          <a class="header__button button" href="#">Хочу сюда!</a>
         </li>
       </ul>
     </nav>
   </header>
 
-  <main class="main__inner" data-test="main"></main>
+  <main class="inner" data-test="main">
+    <section class="inner__header">
+      <div class="inner__header-wrapper">
+        <h1 class="inner__header-title">Гостиницы Седоны</h1>
+        <ul class="inner__header-breadcrumbs">
+          <li class="inner__header-breadcrumbs-item">
+            <a href="" class="inner__header-breadcrumbs-link">
+              <span class="visually-hidden">На главную</span>
+            </a>
+          </li>
+          <li class="inner__header-breadcrumbs-item">
+            <span class="inner__header-breadcrumbs-current">Гостиницы</span>
+          </li>
+        </ul>
 
-  <footer class="page__footer" data-test="footer">
-    <ul class="page__footer-social_list">
-      <li class="social__item">
-        <a class="social__link social__link--vk" href="https://vk.com/htmlacademy">
-          <span class="visually-hidden">Вконтакте</span>
-        </a>
-      </li>
-      <li class="social__item">
-        <a class="social__link social__link--tg" href="https://t.me/htmlacademy">
-          <span class="visually-hidden">Телеграм</span>
-        </a>
-      </li>
-      <li class="social__item">
-        <a class="social__link social__link--youtube" href="https://www.youtube.com/user/htmlacademyru">
-          <span class="visually-hidden">Ютуб</span>
-        </a>
-      </li>
-    </ul>
+        <section class="inner__filters">
+          <h2 class="visually-hidden">Фильтры</h2>
+          <form action="https://echo.htmlacademy.ru/" class="inner__filters-form" method="get">
+            <fieldset class="inner__filters-group">
+              <legend class="inner__filters-legend"></legend>
+              <ul class="inner__filters-list">
+                <li class="inner__filters-item">
 
-    <a class="page__footer-social_phone href=" tel:+78128121212">+7 (812) 812-12-12</a>
+                </li>
+                <li class="inner__filters-item">
 
-    <a class="page__footer-academy" href="https://htmlacademy.ru/intensive/htmlcss">
-      <span class="visually-hidden">Логотип Html Academy</span>
-    </a>
+                </li>
+                <li class="inner__filters-item">
+
+                </li>
+              </ul>
+            </fieldset>
+            <fieldset class="inner__filters-group">
+              <legend class="inner__filters-legend"></legend>
+              <ul class="inner__filters-list">
+                <li class="inner__filters-item">
+
+                </li>
+                <li class="inner__filters-item">
+
+                </li>
+                <li class="inner__filters-item">
+
+                </li>
+              </ul>
+            </fieldset>
+          </form>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer" data-test="footer">
+    <div class="footer__wrapper">
+      <ul class="footer__social-list">
+        <li class="footer__social-item">
+          <a class="footer__social-link footer__social-link--vk" href="https://vk.com/htmlacademy">
+            <span class="visually-hidden">Вконтакте</span>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a class="footer__social-link footer__social-link--tg" href="https://t.me/htmlacademy">
+            <span class="visually-hidden">Телеграм</span>
+          </a>
+        </li>
+        <li class="footer__social-item">
+          <a class="footer__social-link footer__social-link--youtube" href="https://www.youtube.com/user/htmlacademyru">
+            <span class="visually-hidden">Ютуб</span>
+          </a>
+        </li>
+      </ul>
+
+      <a class="footer__link-phone href=" tel:+78128121212">+7 (812) 812-12-12</a>
+
+      <a class="footer__link-academy" href="https://htmlacademy.ru/intensive/htmlcss">
+        <span class="visually-hidden">Логотип Html Academy</span>
+      </a>
+    </div>
   </footer>
 </body>
 
