@@ -11,7 +11,7 @@
   <header class="page__header" data-test="header">
     <nav class="navigation">
       <a class="navigation__logo" href="index.html">
-        <img class="logo" src="" alt="логотип Седона">
+        <img class="logo" src="images/logo.svg" width="140" height="70" alt="логотип Седона">
       </a>
       <ul class="navigation__list">
         <li class="navigation__item">
@@ -65,15 +65,15 @@
               <legend class="filters__legend">Инфраструктура:</legend>
               <ul class="filters__list">
                 <li class="filters__item">
-                  <input class="filters__radio" type="radio" name="structure" value="pool">
+                  <input class="filters__radio" type="checkbox" name="pool" value="pool">
                   <label class="filters__label" for="pool">Бассейн</label>
                 </li>
                 <li class="filters__item">
-                  <input class="filters__radio" type="radio" name="structure" value="parking">
+                  <input class="filters__radio" type="checkbox" name="parking" value="parking">
                   <label class="filters__label" for="parking">Парковка</label>
                 </li>
                 <li class="filters__item">
-                  <input class="filters__radio" type="radio" name="structure" value="wi-fi">
+                  <input class="filters__radio" type="checkbox" name="wi-fi" value="wi-fi">
                   <label class="filters__label" for="wi-fi">Wi-fi</label>
                 </li>
               </ul>
@@ -83,15 +83,15 @@
               <legend class="filters__legend">Тип жилья:</legend>
               <ul class="filters__list">
                 <li class="filters__item">
-                  <input class="filters__checkbox" type="checkbox" name="hotel">
+                  <input class="filters__checkbox" type="radio" name="type-of-housing">
                   <label for="type-of-housing">Гостиница</label>
                 </li>
                 <li class="filters__item">
-                  <input class="filters__checkbox" type="checkbox" name="motel">
+                  <input class="filters__checkbox" type="radio" name="type-of-housing">
                   <label for="type-of-housing">Мотель</label>
                 </li>
                 <li class="filters__item" name="type-of-housing">
-                  <input class="filters__checkbox" type="checkbox" name="apartments">
+                  <input class="filters__checkbox" type="radio" name="type-of-housing">
                   <label for="type-of-housing">Апартаменты</label>
                 </li>
               </ul>
@@ -103,6 +103,8 @@
               <input class="max-value-input" type="text" value="9000" placeholder="до" name="max-value">
               <label class="visually-hidden">Максимальное значение</label>
             </fieldset>
+
+            <!-- Не знаю как сделать полосу -->
 
             <div class="filters__buttons">
               <button class="filter__button button filter__button--apply" type="button">Применить</button>
@@ -145,7 +147,7 @@
         <ul class="products__list">
           <li class="products__item">
             <h3 class="products__title title">Amara Resort & Spa</h3>
-            <img class="products__image" src="#" alt="Звёздное небо сквозь ущелье">
+            <img class="products__image" src="images/amara-hotel.jpg" width="300" height="212" alt="Звёздное небо сквозь ущелье">
             <p class="products__type">Гостиница</p>
             <p class="products__price">От 4000 ₽</p>
             <a class="products__detailed button button__primary" href="about.html">подробнее</a>
@@ -157,7 +159,7 @@
           </li>
           <li class="products__item">
             <h3 class="products__title title">Villas at Poco Diablo</h3>
-            <img class="products__image" src="#" alt="Горы и радуга">
+            <img class="products__image" src="images/villas-hotel.jpg" width="300" height="212" alt="Горы и радуга">
             <p class="products__type">Гостиница</p>
             <p class="products__price">От 5000 ₽</p>
             <a class="products__detailed button button__primary" href="about.html">подробнее</a>
@@ -169,7 +171,7 @@
           </li>
           <li class="products__item">
             <h3 class="products__title title">Desert Quail Inn</h3>
-            <img class="products__image" src="#" alt="Гора, небо и облака">
+            <img class="products__image" width="300" height="212" src="images/desert-hotel.jpg" alt="Гора, небо и облака">
             <p class="products__type">Гостиница</p>
             <p class="products__price">От 2500 ₽</p>
             <a class="products__detailed button button__primary" href="about.html">подробнее</a>
@@ -181,7 +183,7 @@
           </li>
           <li class="products__item">
             <h3 class="products__title title">GreenTree Inn</h3>
-            <img class="products__image" src="#" alt="Вечернее небо">
+            <img class="products__image" src="images/greentree-hotel.jpg" width="300" height="212" alt="Вечернее небо">
             <p class="products__type">Гостиница</p>
             <p class="products__price">От 1500 ₽</p>
             <a class="products__detailed button button__primary" href="about.html">подробнее</a>
