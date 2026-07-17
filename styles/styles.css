@@ -1,0 +1,139 @@
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-display: swap;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+.button {
+  color: #ffffff;
+  border-radius: 4px;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.navigation__list,
+.navigation__list-user {
+  list-style-type: none;
+}
+.navigation__link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration-line: none;
+  color: #000000;
+  text-align: center;
+}
+
+.hero {
+  background-color: cyan;
+  background-image: url("../images/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.advantages__title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+}
+.advantages__subtitle {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  color: #333333;
+}
+.advantages__list {
+  list-style-type: none;
+}
+
+.advantages__item {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+.advantages__item-block {
+  background-color: #82b3d3;
+}
+.advantages_item--road {
+  background-color: rgba(131, 179, 211, 0.2);
+}
+
+.advantages__item-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+.advantages__item-description {
+  color: #333333;
+  text-align: center;
+}
+
+.advantages__item-title--white,
+.advantages__item-description--white {
+  color: #ffffff;
+}
+
+
+.service__title {
+  color: #000000;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+}
+.service__subtitle {
+  color: #333333;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 26px;
+  text-align: center;
+}
+.service__list {
+  list-style-type: none;
+}
+.service__item {
+  background-color: rgba(131, 179, 211, 0.12);
+}
+.service__item--white {
+  background-color: #ffffff;
+}
+
+.service__item-title {
+  font-weight: 700;
+  color: #000000;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+}
+.service__item-subtitle {
+  font-size: 400;
+  text-align: center;
+  color: #333333;
+}
